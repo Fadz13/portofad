@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Fadlan Ali Nur Rohman</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<div class="container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <img src="assets/images/profil.jpg" alt="Foto Profil" class="profile-img" />
+        <h1>Fadlan Ali Nur R.</h1>
+        <h2>Web Developer</h2>
+        <p class="bio">Noob Web Developer</p>
+
+        <div class="social">
+            <a href="https://github.com/fadz413" target="_blank">Github</a>
+            <a href="https://instagram.com/faddsnn_" target="_blank">Instagram</a>
+            <a href="https://tiktok.com/@shennxyt_" target="_blank">Tiktok</a>
+        </div>
+
+        <hr />
+
+        <div class="contact-info">
+            <h3>EMAIL</h3>
+            <p>ildafzz92@gmail.com</p>
+        </div>
+
+        <div class="contact-info">
+            <h3>LOKASI</h3>
+            <p>Nganjuk, Indonesia</p>
+        </div>
+    </aside>
+
+    <!-- CONTENT -->
+    <main class="content">
+
+        <!-- NAVBAR -->
+        <nav class="navbar">
+            <button class="active" data-page="home">Home</button>
+            <button data-page="about">About</button>
+            <button data-page="resume">Resume</button>
+            <button data-page="portfolio">Portfolio</button>
+            <button data-page="blog">Blog</button>
+            <button data-page="contact">Contact</button>
+        </nav>
+
+        <!-- HOME -->
+        <section class="page home">
+            <h3>Welcome To</h3>
+            <h1 style="color: #f59e0b;">My Website</h1>
+            <h2>Still Learning About Website</h2>
+            <p>Make a simple website with HTML, CSS and JavaScript</p>
+
+            <div class="stats">
+                <div class="card">
+                    <h1>1</h1>
+                    <p>Project Pertama</p>
+                </div>
+                <div class="card">
+                    <h1>1</h1>
+                    <p>Tahun Belajar</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="page about hidden">
+            <h1>About Me</h1>
+            <p class="about-text">
+                Namaku Fadlan Ali Nur Rohman. Aku udah mulai atau mengenal dunia coding sejak 2020.
+                Bahasa pemrograman yang udah aku pake itu ada C+, Python dan sekarang masih mencoba mendalami untuk menjadi web developer.
+                dan aku mulaimendalami coding pada tahun 2025-an sampai sekarang (2026).
+            </p>
+
+            <h2>My Services</h2>
+            <div class="services">
+                <div class="service-card">
+                    <div class="icon">💻</div>
+                    <h3>Website Development</h3>
+                    <p>Membuat website sederhana yang responsif dan modern.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🎨</div>
+                    <h3>UI Design</h3>
+                    <p>Mendesain tampilan website agar lebih menarik dan nyaman dilihat.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">⚡</div>
+                    <h3>Performance</h3>
+                    <p>Membuat website ringan dan cepat saat dibuka.</p>
+                </div>
+            </div>
+        </section>
+
+<!-- ===== RESUME (ACCORDION PREMIUM) ===== -->
+<section class="page resume hidden" id="resume-section">
+  <div class="resume-header">
+    <h1>Resume</h1>
+    <span class="accent-line"></span>
+  </div>
+
+  <!-- Accordion Card -->
+  <div class="accordion-wrapper">
+    <div class="accordion-trigger" id="accordionTrigger">
+      <div class="trigger-left">
+        <span class="edu-icon">🎓</span>
+        <div>
+          <h2>Riwayat Pendidikan</h2>
+          <p>Klik untuk melihat perjalanan pendidikan saya.</p>
+        </div>
+      </div>
+      <span class="chevron-icon" id="chevronIcon">
+        <i class="fas fa-chevron-down"></i>
+      </span>
+    </div>
+
+    <div class="accordion-content" id="accordionContent">
+      <!-- Timeline Pendidikan -->
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="dot"></span>
+          <div class="timeline-card">
+            <div class="card-header">
+              <h3>SD Negeri Payaman 2</h3>
+              <span class="year">2016 – 2022</span>
+            </div>
+            <p>Belajar dasar pendidikan umum serta mulai mengenal komputer.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="dot"></span>
+          <div class="timeline-card">
+            <div class="card-header">
+              <h3>SMP Sains Miftahul Huda</h3>
+              <span class="year">2022 – 2025</span>
+            </div>
+            <p>Mulai mengenal dunia website dan pemrograman.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="dot"></span>
+          <div class="timeline-card">
+            <div class="card-header">
+              <h3>SMA Sains Miftahul Huda</h3>
+              <span class="year">2025 – Sekarang</span>
+            </div>
+            <p>Fokus mempelajari HTML, CSS, JavaScript, Python, Git, dan Web Development.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div class="resume-skills">
+        <h2 class="section-subtitle">Skills yang gw punya</h2>
+        <div class="skill-group">
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">HTML</span>
+              <span class="skill-percent">10%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 0%;" data-target="10"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">CSS</span>
+              <span class="skill-percent">8%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 0%;" data-target="8"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-percent">2%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 0%;" data-target="2"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Python</span>
+              <span class="skill-percent">20%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 0%;" data-target="20"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <!-- PORTFOLIO -->
+        <section class="page portfolio hidden">
+            <h1>Portfolio</h1>
+            <p>Project akan ditambahkan dalam waktu dekat.</p>
+        </section>
+
+<!-- BLOG -->
+<section class="page blog hidden">
+    <h1>Blog</h1>
+    <div class="blog-grid">
+        <!-- Kartu Blog 1 -->
+        <article class="blog-card">
+            <div class="blog-card-content">
+                <h3>Cara Memulai Belajar Web Development</h3>
+                <p>
+                    Panduan lengkap untuk pemula yang ingin belajar web development dari nol. 
+                    Mulai dari pemilihan bahasa pemrograman hingga resources yang tepat.
+                </p>
+                <a href="https://justshenn2.vercel.app/" target="_blank" rel="noopener noreferrer" class="blog-read-more">
+                    Baca Selengkapnya →
+                </a>
+            </div>
+            <div class="blog-card-footer">
+                <span class="blog-date">18 Desember 2025</span>
+            </div>
+        </article>
+
+        <!-- Kamu bisa tambahkan kartu blog lain di sini dengan struktur yang sama -->
+    </div>
+</section>
+
+         <!-- ===== CONTACT (PREMIUM) ===== -->
+    <section class="page contact hidden" id="contact-section">
+      <!-- Background dekorasi -->
+      <div class="contact-bg-glow glow-1"></div>
+      <div class="contact-bg-glow glow-2"></div>
+
+      <div class="contact-header">
+        <h1>Contact</h1>
+        <span class="accent-line"></span>
+        <p>Punya pertanyaan, kritik, saran, atau ingin bekerja sama? Silakan kirim pesan melalui formulir di bawah ini.</p>
+      </div>
+
+      <div class="contact-grid">
+<!-- Kolom Kiri: Form -->
+<div class="contact-form-wrapper" id="contactFormWrapper">
+  <form id="contactForm" novalidate>
+    <div class="input-group">
+      <input type="text" id="name" name="name" placeholder=" " required />
+      <label for="name">Nama Lengkap</label>
+      <span class="error-msg">Nama harus diisi</span>
+    </div>
+
+    <div class="input-group">
+      <input type="email" id="email" name="email" placeholder=" " required />
+      <label for="email">Alamat Email</label>
+      <span class="error-msg">Masukkan email yang valid</span>
+    </div>
+
+    <div class="input-group">
+      <input type="text" id="subject" name="subject" placeholder=" " required />
+      <label for="subject">Subjek</label>
+      <span class="error-msg">Subjek harus diisi</span>
+    </div>
+
+    <div class="input-group textarea-group">
+      <textarea id="message" name="message" placeholder=" " required></textarea>
+      <label for="message">Pesan</label>
+      <span class="error-msg">Pesan tidak boleh kosong</span>
+    </div>
+
+    <!-- Tambahan: Field botcheck untuk anti-spam (opsional tapi disarankan) -->
+    <input type="checkbox" name="botcheck" id="botcheck" style="display: none;" />
+
+    <button type="submit" class="btn-submit" id="submitBtn">
+      <span class="btn-text">Kirim Pesan</span>
+      <span class="btn-loader" style="display:none;">
+        <i class="fas fa-spinner fa-spin"></i> Mengirim...
+      </span>
+    </button>
+  </form>
+
+          <!-- Success Card -->
+          <div class="success-card" id="successCard" style="display:none;">
+            <div class="checkmark-wrapper">
+              <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+              </svg>
+            </div>
+            <h2>Pesan berhasil dikirim!</h2>
+            <p>Terima kasih sudah menghubungi saya.</p>
+          </div>
+        </div>
+
+        <!-- Kolom Kanan: Info Card -->
+        <div class="contact-info-wrapper">
+          <div class="info-card">
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <h4>EMAIL</h4>
+                <a href="mailto:ildafzz92@gmail.com">ildafzz92@gmail.com</a>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <h4>LOKASI</h4>
+                <p>Nganjuk, Indonesia</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon status-dot"><i class="fas fa-circle"></i></div>
+              <div>
+                <h4>STATUS</h4>
+                <p>Sedang tersedia untuk belajar dan project sederhana.</p>
+              </div>
+            </div>
+
+            <div class="social-divider"></div>
+
+            <div class="social-section">
+              <h4>Temukan Saya</h4>
+              <div class="social-icons">
+                <a href="https://github.com/fadz413" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://instagram.com/faddsnn_" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://tiktok.com/@shennxyt_" target="_blank" class="social-icon"><i class="fab fa-tiktok"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+    </section>
+
+
+    </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
